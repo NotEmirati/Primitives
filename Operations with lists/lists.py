@@ -12,3 +12,8 @@ def appendList(n:int):
 def extendList(l: list, t: tuple):
     listName.extend(l)
     listName.extend(t)
+
+#inserts the elements with specific index
+def insertList(l: list):
+    l.insert(2, 'a')
+    return l

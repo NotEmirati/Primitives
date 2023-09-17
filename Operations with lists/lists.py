@@ -17,3 +17,8 @@ def extendList(l: list, t: tuple):
 def insertList(l: list):
     l.insert(2, 'a')
     return l
+
+#removes elemetn of a list based on it's index
+def removeItem(l: list):
+    l.pop(1)
+    return l

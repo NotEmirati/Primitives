@@ -25,9 +25,6 @@ def removeItem(l: list):
 
 #returns index of an element from the list using the following 
 def indexelement(userlist: list, __value, __start, __stop):
-    value = __value
-    start = __start
-    stop = __stop
     try:
         for i in userlist:
             return userlist.index(__value, __start, __stop)

@@ -24,9 +24,8 @@ def removeItem(l: list):
     return l
 
 #returns index of an element from the list using the following 
-def indexelement(userlist: list, __value, __start, __stop):
+def index_element(userlist: list, value, start, stop):
     try:
-        for i in userlist:
-            return userlist.index(__value, __start, __stop)
+        return userlist.index(value, start, stop)
     except ValueError:
-            print('Item not in the list')
+        return 'Item is not in the list or range'

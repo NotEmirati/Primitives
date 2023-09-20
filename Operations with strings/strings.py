@@ -4,15 +4,16 @@ def joinString(s:str):
     return phrase
 
 # removes characters from the string
-def removechar(string):
-    chars = 'AEIOUaeiou'
-    result = ''
-    for chars in string:
-        if chars not in chars:
-          result += chars
-    print(removechar('lorem ipsum'))
+def removechar(string: str):
+    chars: str = 'AEIOUaeiou'
+    result: str = ''
+    for char in string:
+        if char not in chars:
+          result += char
     return result
-    
+    # test code: print(removechar('lorem ipsum'))    
+
+
 
 
 

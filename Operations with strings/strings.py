@@ -13,6 +13,11 @@ def removechar(string: str):
     return result
     # test code: print(removechar('lorem ipsum'))    
 
+# converts the first character of a string to an uppercase letter and all other alphabets to lowercase
+def capitalize_string(s: str):
+    return s.capitalize()
+
+
 
 
 

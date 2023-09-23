@@ -29,3 +29,10 @@ def index_element(userlist: list, value, start, stop):
         return userlist.index(value, start, stop)
     except ValueError:
         return 'Item is not in the list or range'
+
+
+def square(n):
+    return n*n
+
+def square_list(function, l: list):
+    return list(map(square, l))

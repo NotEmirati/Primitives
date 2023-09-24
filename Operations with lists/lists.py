@@ -36,3 +36,6 @@ def square(n):
 
 def square_list(function, l: list):
     return list(map(square, l))
+
+def square_with_lambda(l: list):
+    return list(map(lambda x: x*x, l))

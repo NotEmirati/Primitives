@@ -17,11 +17,12 @@ def removechar(string: str):
 def capitalize_string(s: str):
     return s.capitalize()
 
-# replaces the characters from a string, takes 'string', 'old' and 'new' for this operations. 
+# replaces the characters from a string, takes 'string', 'old' and 'new' for this operations
 def replace_str(s: str, old: str, new: str):
     new_s = s.replace(old, new)
     return new_s
 
-
-
+# return the first indesx of a index matching substring
+def find_index(s: str, sub: str, ):
+    return s.find(sub)
 

@@ -26,3 +26,6 @@ def replace_str(s: str, old: str, new: str):
 def find_index(s: str, sub: str, ):
     return s.find(sub)
 
+# splits the string using mentioned sepator, return list
+def string_split(s: str, separator: str):
+    return s.split(separator)

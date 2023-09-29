@@ -29,3 +29,10 @@ def find_index(s: str, sub: str, ):
 # splits the string using mentioned sepator, return list
 def string_split(s: str, separator: str):
     return s.split(separator)
+
+# return f-string using input
+def f_string(name: str, age: int, occupation: str):
+    if age < 18:
+        return 'You are not allowed'
+    else:
+        return f'Hello {name}, I see you were born {age} years ago and your occupation is a/an {occupation}'

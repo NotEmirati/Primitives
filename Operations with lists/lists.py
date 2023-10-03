@@ -30,7 +30,7 @@ def index_element(userlist: list, value, start, stop):
     except ValueError:
         return 'Item is not in the list or range'
 
-
+# return square value
 def square(n):
     return n*n
 
@@ -39,3 +39,13 @@ def square_list(function, l: list):
 
 def square_with_lambda(l: list):
     return list(map(lambda x: x*x, l))
+
+# list slicing
+def slice_list(l: list, b: int, e: int):
+    slice1 = l[:]
+    slice2 = l[b:e]
+    slice3 = l[b:]
+    slice4 = l[:e]
+    return f'{slice1}\n{slice2}\n{slice3}\n{slice4}'
+
+

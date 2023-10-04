@@ -36,3 +36,11 @@ def f_string(name: str, age: int, occupation: str):
         return 'You are not allowed'
     else:
         return f'Hello {name}, I see you were born {age} years ago and your occupation is a/an {occupation}'
+
+# slices the string
+def string_slice(s: str, b: int, e: int):
+    slice1 = s[:]
+    slice2 = s[b:e]
+    slice3 = s[b:]
+    slice4 = s[:e]
+    return f'{slice1}\n{slice2}\n{slice3}\n{slice4}'

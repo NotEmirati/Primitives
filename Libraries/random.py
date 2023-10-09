@@ -7,3 +7,7 @@ def generate_random():
 # returns a random element of a given iterable
 def pick_random(l: list):
     return random.choice(l)
+
+# returns a random int from range
+def generate_random_int(start: int, finish: int):
+    return random.randint(start, finish)

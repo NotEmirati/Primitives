@@ -11,3 +11,8 @@ def pick_random(l: list):
 # returns a random int from range
 def generate_random_int(start: int, finish: int):
     return random.randint(start, finish)
+
+# shuffles the given list
+def shuffle_iterable(l:list):
+    random.shuffle(l)
+    return l

@@ -16,3 +16,7 @@ def generate_random_int(start: int, finish: int):
 def shuffle_iterable(l:list):
     random.shuffle(l)
     return l
+
+# return random float from given range
+def random_float(start: float, finish: float):
+    return random.uniform(start, finish)

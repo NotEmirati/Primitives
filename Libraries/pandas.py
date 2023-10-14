@@ -9,3 +9,4 @@ dict = {'FirstName': ['Alex', 'Mike', 'John'],
 df = pd.DataFrame(dict)
 print(df)
 print(df.dtypes)
+print(df.head(1))

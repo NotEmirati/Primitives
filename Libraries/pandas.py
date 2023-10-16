@@ -7,7 +7,13 @@ dict = {'FirstName': ['Alex', 'Mike', 'John'],
         'Age': [18, 25, 33]}
 
 df = pd.DataFrame(dict)
+# prints DataFrame
 print(df)
+# prints DataFrame types
 print(df.dtypes)
+# prints DataFrame rows from head
 print(df.head(1))
+# prints DataFrame rows from tail
 print(df.tail(1))
+# prints index labels of the DataFrame
+print(df.index)

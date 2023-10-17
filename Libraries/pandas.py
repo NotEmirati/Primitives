@@ -17,3 +17,5 @@ print(df.head(1))
 print(df.tail(1))
 # prints index labels of the DataFrame
 print(df.index)
+# print numpy representation
+print(df.to_numpy())

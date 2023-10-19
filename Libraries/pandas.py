@@ -21,3 +21,5 @@ print(df.index)
 print(df.columns)
 # print numpy representation
 print(df.to_numpy())
+# prints details on numeric values
+print(df.describe())

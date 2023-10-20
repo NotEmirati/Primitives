@@ -23,3 +23,5 @@ print(df.columns)
 print(df.to_numpy())
 # prints details on numeric values
 print(df.describe())
+# prints transposed DataFrame
+print(df.T)

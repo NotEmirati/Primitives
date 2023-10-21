@@ -48,4 +48,7 @@ def slice_list(l: list, b: int, e: int):
     slice4 = l[:e]
     return f'{slice1}\n{slice2}\n{slice3}\n{slice4}'
 
-
+# returns cleared list
+def clear_list(l: list):
+    l.clear()
+    return l

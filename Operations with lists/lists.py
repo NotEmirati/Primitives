@@ -52,3 +52,7 @@ def slice_list(l: list, b: int, e: int):
 def clear_list(l: list):
     l.clear()
     return l
+# copies new_list from old_list
+def copy_list(old_list: list, new_list: list):
+    new_list = old_list.copy()
+    return new_list

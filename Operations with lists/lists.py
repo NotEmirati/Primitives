@@ -61,3 +61,8 @@ def copy_list(old_list: list, new_list: list):
 def sorted_list(old_list: list):
     new_list = sorted(old_list)
     return new_list
+
+# sorts the list in reversed order, option 2. Doesn't support 'key' and 'reverse' args.
+def sort_list(l: list):
+    l.sort()
+    return l

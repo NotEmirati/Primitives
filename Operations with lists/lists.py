@@ -66,3 +66,8 @@ def sorted_list(old_list: list):
 def sort_list(l: list):
     l.sort()
     return l
+
+# reverses the list
+def reverse_list(l: list):
+    l.reverse()
+    return l

@@ -71,3 +71,7 @@ def sort_list(l: list):
 def reverse_list(l: list):
     l.reverse()
     return l
+
+# counts the number of times the integer element appears in the list
+def count(l: list, e: int):
+    return l.count(e)

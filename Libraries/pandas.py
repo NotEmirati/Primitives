@@ -25,3 +25,5 @@ print(df.to_numpy())
 print(df.describe())
 # prints transposed DataFrame
 print(df.T)
+# prints the sorted along the axis DataFrame, 'axis = 1' for columns, 'axis = 0' for rows. 
+print(df.sort_index(axis=0, ascending=False))

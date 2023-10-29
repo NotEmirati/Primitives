@@ -28,5 +28,6 @@ print(df.T)
 # prints the sorted along the axis DataFrame, 'axis = 1' for columns, 'axis = 0' for rows. 
 print(df.sort_index(axis=0, ascending=False))
 # prints the DataFrame sortoed along the values of a given column
-df.sort_values(by="FirstName")
-
+print(df.sort_values(by="FirstName"))
+# prints given column's values
+print(df.FirstName)

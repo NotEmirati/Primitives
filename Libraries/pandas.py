@@ -31,3 +31,5 @@ print(df.sort_index(axis=0, ascending=False))
 print(df.sort_values(by="FirstName"))
 # prints given column's values
 print(df.FirstName)
+# prints selected rows of a DataFrame
+print(df[1:3])

@@ -33,3 +33,5 @@ print(df.sort_values(by="FirstName"))
 print(df.FirstName)
 # prints selected rows of a DataFrame
 print(df[1:3])
+# print selected row:
+print(df.loc[0])

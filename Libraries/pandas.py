@@ -35,3 +35,5 @@ print(df.FirstName)
 print(df[1:3])
 # print selected row:
 print(df.loc[0])
+# prints slice object 
+print(df.loc[:, ['LastName']])

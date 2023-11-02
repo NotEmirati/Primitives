@@ -37,3 +37,5 @@ print(df[1:3])
 print(df.loc[0])
 # prints slice object 
 print(df.loc[:, ['LastName']])
+# prints a portion of a DataFrame
+print(df.loc['0':'1', ['FirstName', 'Age']])

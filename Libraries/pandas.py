@@ -41,3 +41,5 @@ print(df.loc[:, ['LastName']])
 print(df.loc['0':'1', ['FirstName', 'Age']])
 # prints an item from given column and row of a DataFrame
 print(df.iloc[2])
+# print a portion of a DataFrame
+print(df.iloc[1:3, 1:3])

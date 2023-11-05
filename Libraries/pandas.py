@@ -43,3 +43,5 @@ print(df.loc['0':'1', ['FirstName', 'Age']])
 print(df.iloc[2])
 # print a portion of a DataFrame
 print(df.iloc[1:3, 1:3])
+# printt selected values within given rows and columns
+print(df.iloc[[0, 2, 4], [1, 3]])

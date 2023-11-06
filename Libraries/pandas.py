@@ -45,3 +45,5 @@ print(df.iloc[2])
 print(df.iloc[1:3, 1:3])
 # printt selected values within given rows and columns
 print(df.iloc[[0, 2, 4], [1, 3]])
+# print row with given index
+print(df.iloc[0])

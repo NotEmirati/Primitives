@@ -49,3 +49,6 @@ print(df.iloc[[0, 2, 4], [1, 3]])
 print(df.iloc[0])
 # prints exact value
 print(df.iloc[1, 1])
+# prints portion of a DataFrame using slicing
+print(df.iloc[1:3, :])
+print(df.iloc[:, 1:3])

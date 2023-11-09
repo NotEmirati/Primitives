@@ -52,3 +52,5 @@ print(df.iloc[1, 1])
 # prints portion of a DataFrame using slicing
 print(df.iloc[1:3, :])
 print(df.iloc[:, 1:3])
+# prints rows with value greater/smaller than given in a column
+print(df[df["Age"] > 30])

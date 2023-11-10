@@ -44,3 +44,8 @@ def string_slice(s: str, b: int, e: int):
     slice3 = s[b:]
     slice4 = s[:e]
     return f'{slice1}\n{slice2}\n{slice3}\n{slice4}'
+
+# converts string to uppercase
+def upper_case_string(s: str):
+    return s.upper()
+

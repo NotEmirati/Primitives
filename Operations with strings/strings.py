@@ -48,4 +48,7 @@ def string_slice(s: str, b: int, e: int):
 # converts string to uppercase
 def upper_case_string(s: str):
     return s.upper()
-
+    
+# converts string to lowercase
+def lower_case_string(s: str):
+    return s.lower()

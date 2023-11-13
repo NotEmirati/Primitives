@@ -52,3 +52,7 @@ def upper_case_string(s: str):
 # converts string to lowercase
 def lower_case_string(s: str):
     return s.lower()
+
+# converts the first character of a string to an uppercase letter and all other alphabets to lowercase
+def capitalize_string(s: str):
+    return s.capitalize()

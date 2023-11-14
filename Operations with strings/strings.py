@@ -56,3 +56,7 @@ def lower_case_string(s: str):
 # converts the first character of a string to an uppercase letter and all other alphabets to lowercase
 def capitalize_string(s: str):
     return s.capitalize()
+
+# return the largest element of a set. Can be used for any iterable, including several iterables, can have optional args: 'key', 'iterables', 'default'.
+def max_value(set: set):
+    return max(set)

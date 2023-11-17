@@ -5,3 +5,6 @@ def get_url(s: str):
 
 url = 'https://api.github.com'
 print(get_url(url))
+
+response = requests.get('https://api.github.com')
+print(response.status_code)

@@ -13,3 +13,5 @@ def check_connection(s: str):
     response = requests.get(s)
     if response.status_code == 200:
         print('Success!')
+    elif response.status_code == 404:
+        print('Not Found.')

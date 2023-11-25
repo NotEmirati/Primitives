@@ -60,3 +60,7 @@ def capitalize_string(s: str):
 # return the largest element of a set. Can be used for any iterable, including several iterables, can have optional args: 'key', 'iterables', 'default'.
 def max_value(set: set):
     return max(set)
+
+# returns titled version of a string
+def title_str(s: str):
+    return s.title()
